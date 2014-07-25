@@ -1,0 +1,323 @@
+html {
+    background: none repeat scroll 0 0 #101A23;
+    font-family: "DejaVu Sans Condensed","Dejavu Sans",arial,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+    width: 100%;
+}
+body {
+    background: url("../imgs/bg.jpg") repeat scroll 0 0 transparent;
+    color: #444;
+    font-size: 100%;
+    padding: 0;
+    text-align: center;
+}
+hr {
+    display: none;
+}
+p {
+    margin-bottom: 0.5em;
+    margin-right: 0;
+    margin-top: 0.5em;
+}
+img {
+    border: medium none;
+}
+blockquote {
+    border-left: 5px solid #BBBBBB;
+    color: #666666;
+    margin: 1em;
+    padding: 0 10px;
+    width: 90%;
+}
+pre, code {
+    font-family: Lucida Console,Monaco,monospace;
+    font-size: 90%;
+}
+pre {
+    background-color: #F4F4F4;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    height: auto !important;
+    margin: 1em;
+    min-height: 40px;
+    overflow: auto;
+    padding: 5px 10px;
+    width: 90%;
+}
+ul, li, ol {
+    margin: 0;
+    padding: 0;
+}
+form {
+    margin: 1em 0;
+}
+fieldset {
+    border: 1px solid #8EC7CF;
+    margin: 0 0 1em;
+    padding: 0.5em;
+}
+legend {
+    color: #666666;
+    font-size: 80%;
+    font-style: oblique;
+}
+input, textarea, select {
+    background-color: #EEEEEE;
+    border: 1px solid #777777;
+    color: #222222;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+}
+input:hover, input:focus, textarea:hover, textarea:focus {
+    background-color: #EEEEEE;
+    border: 1px solid #555555;
+}
+textarea {
+    font-family: 'Lucida Grande','Trebuchet MS',arial,Helvetica,sans-serif;
+    font-size: 100%;
+    margin-bottom: 1em;
+    margin-left: 2.5%;
+    margin-top: 0.1em;
+    width: 95%;
+}
+a:link, a:visited {
+    color: #666666;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: #0066CC;
+    text-decoration: none;
+}
+h1 {
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-shadow: 0 0 1px gold;
+    margin: 0.5em 0 0;
+    text-transform: uppercase;
+}
+h9 {
+    color: #333333;
+    font-family: Georgia,"Times New Roman";
+    font-size: 1.65em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-top: -1px;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 1.2em;
+}
+h5 {
+    color: #4281B7;
+    font-size: 1.5em;
+    margin: 0 0 5px;
+}
+h3 {
+    color: #6BB5BF;
+    font-family: Georgia,"Times New Roman";
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 0 0 1px #FFFFFF;
+}
+#body-container {
+    background: none repeat scroll 0 0 #101A23;
+    margin: 0 auto 30px;
+    padding: 0;
+    text-align: left;
+    width: 100% !important;
+}
+#head {
+    background: none repeat scroll 0 0 #101A23;
+    border-color: #8EC7CF;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    display: table;
+    font-family: 'book antiqua',georgia,garamond,times,'times new roman',serif;
+    padding: 20px 0 25px;
+    width: 100%;
+}
+#head a {
+    color: white;
+    text-decoration: none;
+}
+.subtitle {
+    color: #22666F;
+    font-family: Georgia;
+    font-size: 14px;
+    font-style: oblique;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0.4em;
+}
+#outer-container {
+    background: none repeat scroll 0 0 #D1EBEF;
+    border-top: 1px solid #8EC7CF;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    width: 90% !important;
+}
+#main h4 {
+    margin: 2em 0 0;
+}
+#main {
+    float: left;
+    font-size: 100%;
+    height: 100%;
+    margin-top: 3%;
+    padding-bottom: 50px;
+    width: 100% !important;
+}
+#main p {
+    line-height: 1.8em;
+    margin-top: 0.4em;
+}
+#main img {
+    margin: 0.01em;
+}
+#main ul {
+    list-style-type: disc;
+    padding: 0 0 0 1.6em;
+}
+#main ol {
+    list-style-position: inside;
+    padding: 10px;
+}
+.date {
+    color: gray;
+    font-size: 80%;
+    margin: 0.2em 0 0.8em;
+}
+.entry {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 0 solid #E4E4E4;
+    margin-right: 10px;
+    padding: 0 0 10px;
+}
+#main > .entry {
+    overflow: hidden;
+}
+#main ul.entry-footer {
+    background: none repeat scroll 0 0 #DEEBEE;
+    clear: both;
+    color: gray;
+    font-size: 80%;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.2em 20px 1em;
+    text-align: right;
+}
+.entry-footer li {
+    color: #222222;
+    display: block;
+    line-height: 125%;
+}
+#main ul.entry-footer a {
+    font-weight: normal;
+}
+.admincontrols {
+    font-size: 80%;
+}
+.buttonbar {
+    text-align: center;
+}
+.buttonbar input {
+    cursor: pointer;
+    margin: 0.1em 0.5em;
+    padding: 4px 7px;
+    text-align: center;
+}
+.grid_3 {
+    float: left;
+    margin-bottom: 15px;
+    width: 33.3%;
+}
+#widgetfooter {
+    background: none repeat scroll 0 0 #101A23;
+    border-top: 2px solid #092A2F;
+    clear: both;
+    color: #6BB5BF;
+    margin-top: 1px;
+    padding-top: 15px;
+}
+#widgetfooter a {
+    color: #6BB5BF;
+}
+#widgetfooter a:hover {
+    color: #7CA3CE;
+}
+#widgetfooter p {
+    color: #6BB5BF;
+}
+#widgetfooter input {
+    border: 1px solid #666666;
+}
+#bottom-widget-searchbox li, #bottom-widget-googlesearchbox li {
+    list-style-type: none;
+}
+#footer {
+    background: none repeat scroll 0 0 transparent;
+    border-top: 2px solid #092A2F;
+    clear: both;
+    color: #6BB5BF;
+    font-size: 90%;
+    margin-bottom: -25px;
+    padding: 10px;
+    text-align: center;
+}
+#footer li:hover a {
+    color: #7CA3CE;
+}
+#footer li.sel a {
+    color: #666666;
+}
+#footer a {
+    color: #7CA3CE;
+}
+#searchbox {
+    background: url("../imgs/search.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 0;
+    margin-top: -11px;
+    padding: 0;
+}
+.entry-info {
+    border-top: 1px solid #8EC7CF;
+    font-size: 80%;
+    margin-top: 3px;
+    padding-bottom: 10px;
+}
+#widget-sottoheader {
+    display: table-cell;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-top: 5px;
+    width: 69%;
+}
+#sottoheader {
+    background-color: #A7D8DF;
+    border: 1px solid #8EC7CF;
+    display: table;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-top: 5px;
+    width: 100%;
+}
+#messagebox {
+    display: table-cell;
+    line-height: 20px;
+    padding: 15px 0 15px 15px;
+    vertical-align: middle;
+    width: 30%;
+}
+#messagebox p {
+    cursor: pointer;
+}

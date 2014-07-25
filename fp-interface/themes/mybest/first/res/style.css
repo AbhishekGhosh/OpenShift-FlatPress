@@ -1,0 +1,28 @@
+@import "common.css";
+@import "globals.css";
+@import "column.css";
+body {
+    margin: 0;
+}
+#comments li.comment-admin {
+    background: none repeat scroll 0 0 transparent;
+    padding: 1em 20px;
+}
+#comments li {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #8EC7CF;
+    margin: 0 0 1.5em;
+    padding: 15px 20px;
+}
+#commentform fieldset p {
+    margin: 0 0 0.5em;
+}
+#comments img {
+    margin-bottom: -3.5px;
+}
+#comments li.comment-admin strong.comment-name {
+    font-size: 100%;
+}
+#widget-searchbox form {
+    text-align: left;
+}
